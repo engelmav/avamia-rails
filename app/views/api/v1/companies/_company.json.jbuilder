@@ -1,0 +1,9 @@
+json.id resource.id
+json.name resource.name
+json.addresses resource.addresses
+json.avatar_url resource.avatar_url
+json.business_structure resource.business_structure
+json.duns_number resource.duns_number
+json.naic resource.naic
+json.created_at resource.created_at
+json.updated_at resource.updated_at
