@@ -13,7 +13,7 @@ default: &default
 
 development:
   <<: *default
-  database: avamia_expo
+  database: avamia_development
   username: postgres
   password: 12345678
 
@@ -30,4 +30,4 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+    database: avamia_production
