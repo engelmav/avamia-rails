@@ -29,5 +29,10 @@ test:
 
 
 production:
-  <<: *default
-    database: avamia_production
+  adapter: postgresql
+  encoding: utf8
+  database: avamia_production
+  pool: 5
+  username: postgres
+  password: ''
+  host: 127.0.0.1
