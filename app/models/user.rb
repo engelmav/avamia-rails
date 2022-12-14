@@ -10,5 +10,6 @@ class User < ApplicationRecord
     @user = User.find_by(email: email)
     (@user.present? and @user.valid_password?(password)) ? @user : nil
   end
+  has_one: :company, foreign_key: company_id, class_name: 'Company' 
 
 end
